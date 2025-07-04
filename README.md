@@ -14,7 +14,7 @@ Make sure you have Python 3.6+ installed on your system.
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd <repo-name>
 ```
 
@@ -106,68 +106,11 @@ The tool provides **50+ data points** organized into these categories:
 📞 Enter phone number: +81 3-3570-4311
 ```
 
-## 🎯 Key Features
-
-- **🔍 Deep Analysis**: 50+ comprehensive data points
-- **🌐 Global Support**: Works with international phone numbers
-- **📍 Location Intelligence**: Geographic and timezone information
-- **⚡ Instant Results**: Fast offline processing
-- **🛡️ Risk Assessment**: Built-in security evaluation
-- **📊 Confidence Scoring**: Reliability metrics for each analysis
-- **🎨 Beautiful Output**: Color-coded, organized results
-
-## 📋 Output Categories
-
-Results are organized into clear sections:
-
-1. **📞 NUMBER_FORMATS** - All format variations
-2. **✅ VALIDATION** - Validity and compliance checks
-3. **🏗️ STRUCTURE** - Technical number breakdown
-4. **🌍 GEOGRAPHIC_INFO** - Location and regional data
-5. **🕐 TIMEZONE_INFO** - Time zone information
-6. **📡 SERVICE_INFO** - Carrier and service details
-7. **🔧 TECHNICAL_DATA** - Metadata and specifications
-8. **📊 ANALYSIS** - Risk assessment and confidence scoring
-
-## 🔒 Privacy & Security
-
-- **Offline Processing**: No data sent to external servers
-- **No Storage**: Numbers are not saved or logged
-- **Risk Assessment**: Built-in security evaluation
-- **Local Analysis**: All processing happens on your machine
-
-## 🆘 Troubleshooting
-
 ### Common Issues
 
 **"Invalid input" error:**
 - Make sure to include the country code
 - Use proper formatting (e.g., +1 for US numbers)
 - Check for typos in the number
-
-**Missing dependencies:**
-```bash
-pip install phonenumbers pytz pycountry
-```
-
-**Python version issues:**
-- Requires Python 3.6 or higher
-- Check your version: `python --version`
-
-## 📝 License
-
-This project is open source. Feel free to use, modify, and distribute.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-
----
-
-**⭐ If you find this tool useful, please give it a star!**
 
 *Made with ❤️ by razberi/xspoit*
